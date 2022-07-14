@@ -1,0 +1,21 @@
+{%- if site.data.resume.work.size > 0 -%}
+    <h2>Work</h2>
+    <div class = "resume-panel">
+        {%- for entry in site.data.resume.work -%}
+            {% include resume-panel.html 
+                start=entry.start end=entry.end title=entry.title description=entry.description vacancy=entry.vacancy
+                company=entry.company company_logo=entry.company_logo industry=entry.industry %}
+        {%- endfor -%}
+    </div>
+{%- endif -%}
+
+{%- if site.data.resume.education.size > 0 -%}
+    <h2>Education</h2>
+    <div class = "resume-panel">
+        {%- for entry in site.data.resume.education -%}
+            {% include resume-panel.html 
+                start=entry.start end=entry.end title=entry.title description=entry.description vacancy=entry.vacancy
+                company=entry.company company_logo=entry.company_logo %}
+        {%- endfor -%}
+    </div>
+{%- endif -%}

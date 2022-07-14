@@ -1,0 +1,27 @@
+<div class = "resume-entery">
+                
+    <div class = "employer-outer">
+        <div class = "employer">
+            <img src = "{{ include.company_logo }}">
+            <h3>{{ include.company }}</h3>
+        </div>
+    </div>
+
+    <div class = "reseume-entery-info">
+        {%- if include.industry -%}
+            <h3>Industry: {{ include.industry }}</h3>
+        {%- endif -%}
+        
+        <h1>{{ include.title }}</h1>
+        <h2>{{ include.vacancy }}&emsp;{{ include.start }} - {{ include.end }}</h2>
+
+        {%- assign description_lines = include.description | split: " | " -%}
+        {%- if description_lines.size > 0 -%}
+            <ul>
+                {%- for line in description_lines -%}
+                    <li>{{ line }}</li>
+                {%- endfor -%}
+            </ul>
+        {%- endif -%}
+    </div>
+</div>

@@ -1,0 +1,40 @@
+---
+layout: default
+---
+{{ content }}
+
+<div class = "project-filter-panel">
+    <button class = "button project-filter" id = "button-game" onclick = "filter_projects('game')">
+        <img src = "/assets/images/tags/project_tags_game.svg" class = "tag-icon">game
+    </button>
+    <button class = "button project-filter" id = "button-javascript" onclick = "filter_projects('javascript')">
+        <img src = "/assets/images/tags/project_tags_javascript.svg" class = "tag-icon">javascript
+    </button>
+    <button class = "button project-filter" id = "button-java" onclick = "filter_projects('java')">
+        <img src = "/assets/images/tags/project_tags_java.svg" class = "tag-icon">java
+    </button>
+    <button class = "button project-filter" id = "button-python" onclick = "filter_projects('python')">
+        <img src = "/assets/images/tags/project_tags_python.svg" class = "tag-icon">python
+    </button>
+    <button class = "button project-filter" id = "button-c++" onclick = "filter_projects('c++')">
+        <img src = "/assets/images/tags/project_tag_cpp.svg" class = "tag-icon">c / c++
+    </button>
+    <button class = "button project-filter" id = "button-school" onclick = "filter_projects('school')">    
+        <img src = "/assets/images/tags/project_tags_school.svg" class = "tag-icon">school
+    </button>
+    <button class = "button project-filter" id = "button-algorithm" onclick = "filter_projects('algorithm')">
+        <img src = "/assets/images/tags/projects_tags_algorithm.svg" class = "tag-icon">algorithm
+    </button>
+    <button class = "button project-filter" id = "button-web" onclick = "filter_projects('web')">
+        <img src = "/assets/images/tags/project_tags_web.svg" class = "tag-icon">web
+    </button>
+</div>
+
+<div class = "product-grid">
+    {%- for post in site.posts -%}
+        {% include product-card.html 
+            url=post.url title=post.title thumbnail_img=post.thumbnail_image thumbnail_video_mp4=post.thumbnail_video_mp4
+            thumbnail_video_webm=post.thumbnail_video_webm short_description=post.short_description tags=post.tags %}
+    {%- endfor -%}
+</div>
+<script src="/assets/tile.js"></script>

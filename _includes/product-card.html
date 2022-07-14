@@ -1,0 +1,53 @@
+<a class="project-link" href="{{ include.url | relative_url }}">
+    <div class = "product-tile">
+      <div class = "project-details">
+        <div class = "project-image">
+          <video id="myVid" loop muted preload="none">
+            <source src="{{ include.thumbnail_video_mp4 }}" type="video/mp4">
+            <source src="{{ include.thumbnail_video_webm }}" type="video/webm">
+          </video>
+          <img src = "{{ include.thumbnail_img }}">
+        </div>
+
+        <h3>{{ include.title | escape }}</h3>
+        <p>{{ include.short_description | escape }}</p>
+      </div>
+
+      <div class = "project-tags">
+        {%- if include.tags contains "game" -%}
+        <img src = "/assets/images/tags/project_tags_game.svg" class = "tag-icon">
+        {%- endif -%}
+
+        {%- if include.tags contains "javascript" -%}
+        <img src = "/assets/images/tags/project_tags_javascript.svg" class = "tag-icon">
+        {%- endif -%}
+
+        {%- if include.tags contains "java" -%}
+        <img src = "/assets/images/tags/project_tags_java.svg" class = "tag-icon">
+        {%- endif -%}
+
+        {%- if include.tags contains "web" -%}
+        <img src = "/assets/images/tags/project_tags_web.svg" class = "tag-icon">
+        {%- endif -%}
+
+        {%- if include.tags contains "school" -%}
+        <img src = "/assets/images/tags/project_tags_school.svg" class = "tag-icon">
+        {%- endif -%}
+
+        {%- if include.tags contains "python" -%}
+        <img src = "/assets/images/tags/project_tags_python.svg" class = "tag-icon">
+        {%- endif -%}
+
+        {%- if include.tags contains "algorithm" -%}
+        <img src = "/assets/images/tags/projects_tags_algorithm.svg" class = "tag-icon">
+        {%- endif -%}
+      </div>
+    </div>
+
+    <div id = "tile-tags" style = "display: none;">
+      {%- for tag in include.tags - %}
+      {{ tag }}
+      {%- endfor -%}
+    </div>
+
+</a>

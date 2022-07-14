@@ -1,0 +1,68 @@
+{
+    "work": [
+        {
+            "start":"Aug 2022",
+            "end":"Present",
+            "title":"Teaching assistant",
+            "description":"Leading group sessions and teach students | Assist students with lecture and homework questions | Grading mandatory assignments",
+            "vacancy":"Part-time",
+            "company":"University of Bergen",
+            "company_logo":"/assets/images/resume/resume_logo_uib.svg",
+            "industry":"Education"
+        },
+
+        {
+            "start":"Aug 2018",
+            "end":"Jun 2021",
+            "title":"Media graphics artist",
+            "description":"Consulting customers | Designing and developing motions graphics and visual effects | Editing photos, and other graphics related tasks",
+            "vacancy":"Part-time",
+            "company":"Falkeblikk AS",
+            "company_logo":"/assets/images/resume/resume_logo_falkeblikk.png",
+            "industry":"Media-production"
+        },
+
+        {
+            "start":"Aug 2017",
+            "end":"Aug 2018",
+            "title":"Media graphics artist",
+            "description":"Consulting customers | Designing motions graphics and visual effects | Editing photos, and other graphics related tasks",
+            "vacancy":"Full-time",
+            "company":"Falkeblikk AS",
+            "company_logo":"/assets/images/resume/resume_logo_falkeblikk.png",
+            "industry":"Media-production"
+        },
+
+        {
+            "start":"Mar 2014",
+            "end":"Aug 2016",
+            "title":"Camera operator",
+            "description":"Operating cameras at stadion for OBOS and Tippeligaen football matches | Rigging and moutning cameras and production equipment",
+            "vacancy":"Freelance",
+            "company":"OB-Team AS",
+            "company_logo":"/assets/images/resume/resume_logo_ob-team.png",
+            "industry":"TV-production"
+        }
+
+    ],
+
+    "education": [
+        {
+            "start":"Aug 2021",
+            "end":"Present",
+            "title":"Bachelor in Informatics: Computer Techonology",
+            "vacancy":"3 years",
+            "company":"University of Bergen",
+            "company_logo":"/assets/images/resume/resume_logo_uib.svg"
+        },
+
+        {
+            "start":"Aug 2018",
+            "end":"Jun 2021",
+            "title":"Bachelor in Marketing Management",
+            "vacancy":"3 years",
+            "company":"BI Norwegian Business School",
+            "company_logo":"/assets/images/resume/resume_logo_bi.png"
+        }
+    ]
+}

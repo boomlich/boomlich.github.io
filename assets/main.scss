@@ -1,0 +1,290 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;0,700;1,400&display=block');
+
+$color-regular: #fff6db;
+$color-BG: #1b182f;
+$color-highlight: #f2a25d;
+$color-box: #293b6c;
+$color-special: #23719b;
+
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0 25px;
+    grid-auto-flow: row;
+    grid-auto-columns: auto;
+}
+
+@media only screen and (max-width: 800px) {
+    .product-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+.product-tile {
+    margin-bottom: 25px;
+}
+
+.project-details img {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 2.5%;
+    transition:transform .3s ease-out;
+}
+
+.project-details video {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 2.5%;
+    transition:all .3s ease-out;
+    opacity: 0;
+    position: absolute;
+    width: -webkit-fill-available;
+}
+
+.project-image {
+    transition:transform .3s ease-out;
+}
+
+.project-details:hover .project-image {
+    transform: scale(1.1);
+}
+
+.project-details:hover video {
+    opacity: 1;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #1b182f;
+    color: $color-regular;
+}
+
+.wrapper {
+    max-width: -webkit-calc(900px - (30px * 2));
+    max-width: calc(900px - (30px * 2));
+}
+
+a.project-link {
+    color: $color-regular;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+a.project-link h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    
+}
+
+a.project-link p {
+    color: $color-highlight;
+    font-size: small;
+}
+
+
+.home-presentation h5 {
+    margin: 0;
+}
+
+.home-presentation h4 {
+    font-weight: 700;
+}
+
+.home-presentation h1 {
+    margin-bottom: 5px;
+    color: $color-highlight;
+    font-weight: 700;
+}
+
+.home-presentation {
+    margin-bottom: 50px;
+}
+
+
+.site-nav .page-link {
+    color: $color-regular;
+}
+
+.more-projects-button {
+    margin: auto;
+    display: block;
+    background-color: $color-box;
+    border: none;
+    color: $color-regular;
+    padding: 10px 10px;
+    transition: .3s ease;
+}
+
+.project-filter-panel {
+    margin-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.button {
+    background-color: $color-special;
+    color: $color-regular;
+    cursor: pointer;
+    border-radius: 5%;
+    border: none;
+    padding: 10px 10px;
+    width: auto;
+    transition: 0.3s ease-out;
+}
+
+button:hover {
+    background-color: $color-highlight;
+}
+
+button:hover svg {
+    fill: $color-BG;
+}
+
+.project-filter {
+    margin-bottom: 10px;
+}
+
+
+.tag-icon {
+    height: 16px;
+    object-fit: contain;
+    padding-right: 10px;
+}
+
+.project-filter.selected-filter {
+    background-color: $color-highlight;
+}
+
+.project-filter.disabled-filter {
+    background-color: $color-box;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+
+.site-header {
+    border: none;
+}
+
+.site-title, .site-title:visited {
+    color: $color-regular;
+}
+
+
+
+.project-banner {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+    
+
+table {
+    color: $color-regular;
+    border: none;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: $color-regular;
+    color: $color-BG;
+}
+
+table tr:nth-child(even) {
+    background-color: rgba($color: #000000, $alpha: 0.35)
+}
+
+
+.resume-entery {
+    background-color: rgba($color: #000000, $alpha: 0.25);
+    padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+
+.resume-entery h1 {
+    margin-bottom: 0;
+}
+
+
+.resume-entery h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.resume-entery h3 {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.employer {
+    width: 150px;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.employer img {
+    height: 100px;
+    object-fit: contain;
+}
+
+
+pre, code {
+    background-color: rgb(29, 31, 32);
+}
+
+.highlighter-rouge .highlight {
+    background-color: rgb(29, 31, 32);
+}
+
+@media screen and (max-width: 600px) {
+    .site-nav {
+        background-color: $color-BG;
+    }
+
+    .site-nav .menu-icon svg {
+        fill: $color-regular;
+    }
+
+    .resume-entery {
+        display: block;
+    }
+
+    .employer {
+        width: 100%;
+        position: relative;
+        top: 0;
+        -webkit-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        transform: translateY(0%);
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .employer img {
+        height: 75px;
+        width: 100px;
+    }
+
+    .employer h3 {
+        padding-top: 25px;
+    }
+}

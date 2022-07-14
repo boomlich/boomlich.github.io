@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <div class = "home-presentation">
+    <h5>Hi, my name is</h5>
+    <h1>Thomas A. Matre</h1>
+    <h4>Computer science student<br>@ University of Bergen</h4>
+  </div>
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading" style = "font-weight: 700;">{{ page.list_title | default: "Featured Projects" }}</h2>
+
+
+    <div class = "product-grid">
+      {%- for post in site.posts -%}
+        {%- if post.featured -%}
+          {% include product-card.html 
+            url=post.url title=post.title thumbnail_img=post.thumbnail_image thumbnail_video_mp4=post.thumbnail_video_mp4
+            thumbnail_video_webm=post.thumbnail_video_webm short_description=post.short_description tags=post.tags %}
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+    <a href = "{{ 'projects' | pages.pagehandle.url }}" style = "text-decoration: none;"><button class="button more-projects-button">more projects</button></a>
+  {%- endif -%}
+
+</div>
+
+<script src="/assets/tile.js"></script>
