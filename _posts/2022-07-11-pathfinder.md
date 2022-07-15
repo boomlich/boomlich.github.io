@@ -12,9 +12,48 @@ tags: "algorithm java"
 categories: algorithms, java
 collection: projects
 ---
-Tank yourself is an action game, where you defeat endless waves of enemies, gain points and reach a new high score.
 
-It was created to learn more about javascript, and to create a game playable in a browser, as opposed to having to download and run an executable file.
+This program was created to learn more about algorithms and how to implement them, specificly maze-generation and pathfinding algorithms.
 
-## How to play
-The game is published on Itch.io where it can be played for free in an browser. Click the «play on itch.io» bellow:
+### Maze-generation algorithms
+In the program there are four different available algorithms to choose when generating mazes.
+
+#### 1. Randomized depth first search
+
+
+Pseudocode:
+```
+assign stack = []
+visit and an choosen initial cell, push to stack
+
+while stack not empty
+1. assign current cell = stack.pop
+2. If current cell has neighbours that has not been visited:
+    1. push current cell to stack
+    2. assign selected neighbur to be one of the unvisited neibours
+    3. Remove the wall between the current cell and the selected neighbour
+    4. Mark selected cell as visited and push it to the stack
+```
+<center>
+    <video class="in-article-video" autoplay muted loop>
+        <source src="/assets/videoes/articles/project_article_pathfinder_DFS_01.mp4" type="video/mp4">
+        <source src="/assets/videoes/articles/project_article_pathfinder_DFS_01.webm" type="video/webm">
+    </video>
+</center>
+
+#### 2. Randomized Kruskal
+#### 3. Randomized Prim
+#### 4. Recurisve Division
+
+
+### Pathfinding algorithms
+
+There are two available pathfinding algorithms.
+
+#### 1. Dijkstra
+
+
+
+#### 2. A*
+A* is an extended algorithm of Dijkstra's. It adds a heuristic value that helps to determine
+the optimal next cell to visit, often resulting in major performance improvements.

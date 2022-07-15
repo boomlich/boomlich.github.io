@@ -32,6 +32,7 @@ $color-special: #23719b;
 
 .project-details img {
     height: 250px;
+    width: 100%;
     object-fit: cover;
     border-radius: 2.5%;
     transition:transform .3s ease-out;
@@ -39,12 +40,13 @@ $color-special: #23719b;
 
 .project-details video {
     height: 250px;
+    width: 0;
     object-fit: cover;
     border-radius: 2.5%;
-    transition:all .3s ease-out;
+    transition:transform .3s ease-out;
+    transition:opacity .3s ease-out;
     opacity: 0;
     position: absolute;
-    width: -webkit-fill-available;
 }
 
 .project-image {
@@ -255,6 +257,18 @@ pre, code {
     background-color: rgb(29, 31, 32);
 }
 
+.centered-video {
+    width: 560px;
+    height: 315px;
+    margin-bottom: 20px;
+}
+
+
+.in-article-video {
+    height: 200px;
+    object-fit: contain;
+}
+
 @media screen and (max-width: 600px) {
     .site-nav {
         background-color: $color-BG;
@@ -287,4 +301,15 @@ pre, code {
     .employer h3 {
         padding-top: 25px;
     }
+
+    button:hover {
+        background-color: none;
+    }
+
+    .centered-video {
+        width: 100%;
+        height: 250px;
+    }
+    
 }
+

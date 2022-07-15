@@ -17,12 +17,13 @@ Tank yourself is an action game, where you defeat endless waves of enemies, gain
 It was a proof-of-concept, created to learn javascript, and to create a game playable in a browser,
 as opposed requiring downloading and running an executable file on a device.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/z5vm-Uw1DkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include centered-youtube.html url='https://www.youtube.com/embed/z5vm-Uw1DkA' %}
+
 
 ## How to play
 The game is published on Itch.io where it can be played for free in an browser. Click the «play on itch.io» bellow:
 
-<iframe frameborder="0" src="https://itch.io/embed/1600428?dark=true" width="552" height="167"><a href="https://boomlich.itch.io/tank-yourself">Tank Yourself by boomlich</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed/1600428?dark=true" width="100%" height="167"><a href="https://boomlich.itch.io/tank-yourself">Tank Yourself by boomlich</a></iframe>
 
 ### Rules
 

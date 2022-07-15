@@ -23,9 +23,6 @@ the theme.
 For displaying the project cards, custom javascript logic was written. This includes the tag-filtering, allowing the user
 to only display the projects with the desired tag. Also, the video playback when the mouse hovers over a tile was custom javascript.
 
-The entire source code for the website is available on github. This website uses the default Minima theme as a base, but heavely
-modified. Pretty much all the style and layout's have been modified in a major way to fit the style I wanted.
-
 ### Building an resume with json
 
 Another perk of using jekyll, is that is handels json files with ease. Through its liquid templating language I was able

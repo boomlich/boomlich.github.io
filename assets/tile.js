@@ -3,26 +3,28 @@ let filter_buttons = document.getElementsByClassName("project-filter");
 let active_filter = "";
 let selected_button;
 
+// Play video on hover
 for (let i = 0; i < tiles.length; i++) {
     const tile = tiles[i];
     const tile_video = tile.querySelector("#myVid");
 
-    console.log(tile_video);
+    
 
     tile.addEventListener("mouseover", function() {
         tile_video.currentTime = 0;
         tile_video.play();
+        tile_video.style.width = tile.offsetWidth + "px";
     });
 
     tile.addEventListener("mouseleave", function() { 
         tile_video.pause();
+        tile_video.style.width = "0px";
     });
 }
 
 
 
 // Filter tiles
-
 function filter_projects(tag) {
     if (active_filter === tag) {
         reset_filter();
