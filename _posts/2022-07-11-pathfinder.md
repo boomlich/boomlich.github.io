@@ -35,7 +35,7 @@ while stack not empty
     4. Mark selected cell as visited and push it to the stack
 ```
 <center>
-    <video class="in-article-video" autoplay muted loop>
+    <video class="in-article-video" autoplay muted playsinline loop>
         <source src="/assets/videoes/articles/project_article_pathfinder_DFS_01.mp4" type="video/mp4">
         <source src="/assets/videoes/articles/project_article_pathfinder_DFS_01.webm" type="video/webm">
     </video>
