@@ -4,7 +4,7 @@ title:  "Personal website"
 short_description: "static website"
 featured: true
 thumbnail_image: "/assets/images/project_thumbnail_pers-website_01.png"
-github: "https://github.com/boomlich/TankYourself"
+github: "https://github.com/boomlich/boomlich.github.io"
 tags: "web javascript"
 categories: game, java
 collection: projects
