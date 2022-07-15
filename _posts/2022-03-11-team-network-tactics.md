@@ -13,3 +13,7 @@ This was a school mandatory assignement about socket programming. The assignemen
 that was originally a local, non-socket program, into a networking application using a server-client model. 
 
 The project was a collaboration between me and two other classmates, Nikita and Ivar.
+
+https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}
+
+{{ site.google_analytics }}
