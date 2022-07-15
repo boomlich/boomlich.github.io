@@ -41,6 +41,9 @@ header_pages:
   - about.md
   - contact.md
 
+# Google Analytics
+google_analytics: G-Q59JZYYDKT
+
 
 
 # Exclude from processing.
