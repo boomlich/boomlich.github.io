@@ -15,7 +15,10 @@ collection: projects
 
 This program was created to learn more about algorithms and how to implement them, specificly maze-generation and pathfinding algorithms.
 
-{% include download-file.html win_installer='/assets/downloads/PathFinder.jar' win_zip='/assets/downloads/PathFinder.zip' mac_installer='test' title='PathFinder' version='1.0.0 / 16.07.22' size='225 MB' %}
+{% include download-file.html 
+    win_installer='/assets/downloads/PathFinder.jar' 
+    win_zip='https://www.googleapis.com/drive/v3/files/1Cddy1S1VBgrja42NsSUIDm1xM1GgMbXk?alt=media&key=AIzaSyB9cYLksQx6KMiqlNxNv3LlV5Rk3FejxmU' 
+    mac_installer='test' title='PathFinder' version='1.0.0 / 16.07.22' size='225 MB' %}
 
 
 ## Maze-generation algorithms
