@@ -5,6 +5,7 @@ short_description: "socket programming"
 featured: false
 thumbnail_image: "/assets/images/project_thumbnail_orcattc_01.jpg"
 thumbnail_gif: ""
+github: "https://github.com/Captain-Yarkin/Mandatory-assigment-INF142"
 tags: "game python school networking"
 categories: game, java
 collection: projects
@@ -13,7 +14,3 @@ This was a school mandatory assignement about socket programming. The assignemen
 that was originally a local, non-socket program, into a networking application using a server-client model. 
 
 The project was a collaboration between me and two other classmates, Nikita and Ivar.
-
-https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}
-
-{{ site.google_analytics }}

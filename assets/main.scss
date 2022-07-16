@@ -279,6 +279,48 @@ h3 {
 }
 
 
+.file-download-panel {
+    width: 300px;
+    background-color: rgba($color: #000000, $alpha: 0.35);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.download-button {
+    margin-right: 20px;
+    width: 100px;
+}
+
+#button-text h5 {
+    margin-bottom: 0;
+}
+
+.file-download-os-selecter {
+    margin-right: 10px;
+    color: $color-regular;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.file-download-os-selecter:hover {
+    text-decoration: none;
+    color: $color-highlight;
+}
+
+.highlight-text {
+    color: $color-highlight;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.highlight-text:hover {
+    text-decoration: underline;
+}
+
+.os-selecter {
+    margin-bottom: 20px;
+}
+
 @media screen and (max-width: 600px) {
     .site-nav {
         background-color: $color-BG;

@@ -1,0 +1,73 @@
+{% assign has_windows = include.win_installer or include.win_zip %}
+{% assign has_mac = include.mac_installer or include.mac_zip %}
+
+<div class="file-download-panel">
+    <h3>Download</h3>
+    <h5>Version: {{ include.version }}</h5>
+
+    <div class = "os-selecter">
+        {%- if has_windows -%}
+            <a class="file-download-os-selecter" id="os-windows" onclick="set_os_button_active(this)">Windows</a>
+        {%- endif -%}
+        {%- if has_windows -%}
+        <a class="file-download-os-selecter" id="os-mac" onclick="set_os_button_active(this)">macOS</a>
+        {%- endif -%}
+    </div>
+    
+    <div>
+        {%- if has_windows -%}
+            <div class="os-download-panel" id="os-windows-panel">
+
+                {%- if include.win_installer -%}
+                        <a class="file-download-link" href="{{ include.win_installer }}" download="{{ include.title }}">
+                            <button class="button download-button" id="file-download">
+                                <div id ="button-text">
+                                    <b>Installer</b>
+                                </div>
+                            </button>
+                        </a>
+                {%- endif -%}
+
+                {%- if include.win_zip -%}
+                    <a class="file-download-link" href="{{ include.win_zip }}" download="{{ include.title }}">
+                        <button class="button download-button" id="file-download">
+                            <div id ="button-text">
+                                <b>ZIP</b>
+                            </div>
+                        </button>
+                    </a>
+                {%- endif -%}
+            </div>
+        {%- endif -%}
+
+
+        {%- if has_mac -%}
+            <div class="os-download-panel" id="os-mac-panel">
+
+                {%- if include.mac_installer -%}
+                        <a class="file-download-link" href="{{ include.mac_installer }}" download="{{ include.title }}">
+                            <button class="button download-button" id="file-download">
+                                <div id ="button-text">
+                                    <b>Installer</b>
+                                </div>
+                            </button>
+                        </a>
+                {%- endif -%}
+
+                {%- if include.mac_zip -%}
+                    <a class="file-download-link" href="{{ include.mac_zip }}" download="{{ include.title }}">
+                        <button class="button download-button" id="file-download">
+                            <div id ="button-text">
+                                <b>ZIP</b>
+                            </div>
+                        </button>
+                    </a>
+                {%- endif -%}
+            </div>
+        {%- endif -%}
+
+    </div>
+</div>
+
+<script src="/assets/file-download.js"></script>
+

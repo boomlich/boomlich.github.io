@@ -15,17 +15,7 @@ collection: projects
 
 This program was created to learn more about algorithms and how to implement them, specificly maze-generation and pathfinding algorithms.
 
-## How to start program?
-
-To use the program, download the program, open your CLI (terminal/command-line/powershell), navigate to the location of the .jar file, execute the following command:
-
- `java -jar pathfinder.jar`
-
-<a href="/assets/downloads/ORCATTC.jar" download="ORCATTC.jar"><button class="button">Download program</button></a>
-
- Requirements:
- - Java
-
+{% include download-file.html win_installer='/assets/downloads/PathFinder.jar' win_zip='/assets/downloads/PathFinder.zip' mac_installer='test' title='PathFinder' version='1.0.0 / 16.07.22' size='225 MB' %}
 
 
 ## Maze-generation algorithms
