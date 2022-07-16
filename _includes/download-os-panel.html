@@ -1,0 +1,21 @@
+<div class="os-download-panel" id="os-{{ include.os }}-panel">
+    {%- if include.installer -%}
+            <a class="file-download-link" href="{{ include.installer }}" download="{{ include.title }}">
+                <button class="button download-button" id="file-download">
+                    <div id ="button-text">
+                        <b>Installer</b><h5>{{ include.installer_size }}</h5>
+                    </div>
+                </button>
+            </a>
+    {%- endif -%}
+
+    {%- if include.zip -%}
+        <a class="file-download-link" href="{{ include.zip }}" download="{{ include.title }}">
+            <button class="button download-button" id="file-download">
+                <div id ="button-text">
+                    <b>ZIP</b><h5>{{ include.zip_size }}</h5>
+                </div>
+            </button>
+        </a>
+    {%- endif -%}
+</div>

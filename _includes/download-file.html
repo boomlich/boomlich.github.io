@@ -1,5 +1,18 @@
-{% assign has_windows = include.win_installer or include.win_zip %}
-{% assign has_mac = include.mac_installer or include.mac_zip %}
+{% if include.win_installer %}
+    {% assign has_windows = true %}
+{% endif %}
+
+{% if include.win_zip %}
+    {% assign has_windows = true %}
+{% endif %}
+
+{% if include.mac_installer %}
+    {% assign has_mac = true %}
+{% endif %}
+
+{% if include.mac_zip %}
+    {% assign has_mac = true %}
+{% endif %}
 
 <div class="file-download-panel">
     <h3>Download</h3>
@@ -9,63 +22,25 @@
         {%- if has_windows -%}
             <a class="file-download-os-selecter" id="os-windows" onclick="set_os_button_active(this)">Windows</a>
         {%- endif -%}
-        {%- if has_windows -%}
+        {%- if has_mac -%}
         <a class="file-download-os-selecter" id="os-mac" onclick="set_os_button_active(this)">macOS</a>
         {%- endif -%}
     </div>
     
     <div>
         {%- if has_windows -%}
-            <div class="os-download-panel" id="os-windows-panel">
-
-                {%- if include.win_installer -%}
-                        <a class="file-download-link" href="{{ include.win_installer }}" download="{{ include.title }}">
-                            <button class="button download-button" id="file-download">
-                                <div id ="button-text">
-                                    <b>Installer</b>
-                                </div>
-                            </button>
-                        </a>
-                {%- endif -%}
-
-                {%- if include.win_zip -%}
-                    <a class="file-download-link" href="{{ include.win_zip }}" download="{{ include.title }}">
-                        <button class="button download-button" id="file-download">
-                            <div id ="button-text">
-                                <b>ZIP</b>
-                            </div>
-                        </button>
-                    </a>
-                {%- endif -%}
-            </div>
+            {% include download-os-panel.html 
+                installer=include.win_installer installer_size=include.win_installer_size 
+                zip=include.win_zip zip_size=include.win_zip_size
+                title=include_title os='windows' %}
         {%- endif -%}
-
 
         {%- if has_mac -%}
-            <div class="os-download-panel" id="os-mac-panel">
-
-                {%- if include.mac_installer -%}
-                        <a class="file-download-link" href="{{ include.mac_installer }}" download="{{ include.title }}">
-                            <button class="button download-button" id="file-download">
-                                <div id ="button-text">
-                                    <b>Installer</b>
-                                </div>
-                            </button>
-                        </a>
-                {%- endif -%}
-
-                {%- if include.mac_zip -%}
-                    <a class="file-download-link" href="{{ include.mac_zip }}" download="{{ include.title }}">
-                        <button class="button download-button" id="file-download">
-                            <div id ="button-text">
-                                <b>ZIP</b>
-                            </div>
-                        </button>
-                    </a>
-                {%- endif -%}
-            </div>
+            {% include download-os-panel.html 
+                installer=include.mac_installer installer_size=include.mac_installer_size 
+                zip=include.mac_zip zip_size=include.mac_zip_size
+                title=include_title os='mac'%}
         {%- endif -%}
-
     </div>
 </div>
 

@@ -11,14 +11,20 @@ github: "https://github.com/boomlich/PathFinder-visualisation"
 tags: "algorithm java"
 categories: algorithms, java
 collection: projects
+
+tldr: true
+tldr_desc: "Program for vizualising pathfinding and maze-generation algorithms"
+tldr_lang: "Java"
+tldr_tools: "IntelliJ"
 ---
 
 This program was created to learn more about algorithms and how to implement them, specificly maze-generation and pathfinding algorithms.
 
 {% include download-file.html 
-    win_installer='/assets/downloads/PathFinder.jar' 
-    win_zip='https://www.googleapis.com/drive/v3/files/1Cddy1S1VBgrja42NsSUIDm1xM1GgMbXk?alt=media&key=AIzaSyB9cYLksQx6KMiqlNxNv3LlV5Rk3FejxmU' 
-    mac_installer='test' title='PathFinder' version='1.0.0 / 16.07.22' size='225 MB' %}
+    title='PathFinder' version='1.0.0 / 16.07.22'
+    win_installer='https://matix.li/c3ed9290f959' win_installer_size='86 MB'
+    win_zip='https://matix.li/b267232e1c1d' win_zip_size='114 MB'
+%}
 
 
 ## Maze-generation algorithms

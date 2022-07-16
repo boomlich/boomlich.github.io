@@ -1,0 +1,17 @@
+<div class="tldr-info">
+    <h3>TLDR</h3>
+    <ul>
+        {%- if include.grade -%}
+            <li><h5>Grade: {{ include.grade }}</h5></li>
+        {%- endif -%}
+        {%- if include.lang -%}
+            <li><h5>Languages: {{ include.lang }}</h5></li>
+        {%- endif -%}
+        {%- if include.tools -%}
+            <li><h5>Tools: {{ include.tools }}</h5></li>
+        {%- endif -%}
+        {%- if include.desc -%}
+            <li><h5>Description: {{ include.desc }}</h5></li>
+        {%- endif -%}
+    </ul>
+</div>

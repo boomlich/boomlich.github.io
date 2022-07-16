@@ -11,6 +11,12 @@ tags: "game javascript"
 github: "https://github.com/boomlich/TankYourself"
 categories: game, javascript
 collection: projects
+
+tldr: true
+tldr_desc: "Small action game written to learn more about javascript"
+tldr_lang: "Javascript, html, css"
+tldr_tools: "VScode, p5.js, Adobe Illustrator"
+
 ---
 Tank yourself is an action game, where you defeat endless waves of enemies, gain points and reach a new high score.
 

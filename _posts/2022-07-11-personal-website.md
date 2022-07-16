@@ -2,20 +2,25 @@
 layout: post
 title:  "Personal website"
 short_description: "static website"
-featured: true
 thumbnail_image: "/assets/images/project_thumbnail_pers-website_01.png"
 github: "https://github.com/boomlich/boomlich.github.io"
 tags: "web javascript"
 categories: game, java
 collection: projects
+
+tldr: true
+tldr_desc: "Personal webpage for displaying my projects"
+tldr_lang: "Javascript, liquid, html, scss"
+tldr_tools: "VScode, jekyll"
+
 ---
 The current website you are on. It was created display and present my projects. 
 
-This website was built using jekyll static site generator and hosted on github pages. The benefit of choosing jekyll is that 
+This website was built using `jekyll` static site generator and hosted on github pages. The benefit of choosing jekyll is that 
 it is closely integreted with github pages, which offers free website hosting. Another benefit with jekyll is that it allows
 me to create static website that are fast to load and easy to maintain and update. 
 
-To add a new project, I only have to make a new markdown file and jekyll generates a new static HTML document for that post with all the layout and style as specified by
+To add a new project, I only have to make a new markdown file and `jekyll` generates a new static HTML document for that post with all the layout and style as specified by
 the theme.
 
 ### Running the project display with javascript
@@ -25,7 +30,7 @@ to only display the projects with the desired tag. Also, the video playback when
 
 ### Building an resume with json
 
-Another perk of using jekyll, is that is handels json files with ease. Through its liquid templating language I was able
+Another perk of using `jekyll`, is that is handels `json` files with ease. Through its `liquid templating language` I was able
 to easely turn data into a complete resume. 
 
 Here is an example of one of the json for one an entry in my resume:
