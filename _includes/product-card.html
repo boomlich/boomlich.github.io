@@ -7,7 +7,11 @@
             <source src="{{ include.thumbnail_video_mp4 }}" type="video/mp4">
             <source src="{{ include.thumbnail_video_webm }}" type="video/webm">
           </video>
-          <img src = "{{ include.thumbnail_img }}">
+
+          <picture>
+            <source srcset="{{ include.thumbnail_img_webp }}" type="image/webp">
+            <img src="{{ include.thumbnail_img_png }}"> 
+          </picture>
         </div>
 
         <h3>{{ include.title | escape }}</h3>

@@ -2,7 +2,11 @@
 layout: post
 title:  "Personal website"
 short_description: "static website"
-thumbnail_image: "/assets/images/project_thumbnail_pers-website_01.png"
+
+thumbnail_img_webp: "/assets/images/project_thumbnail_pers-website_01.webp"
+thumbnail_img_png: "/assets/images/project_thumbnail_pers-website_01.png"
+
+
 github: "https://github.com/boomlich/boomlich.github.io"
 tags: "web javascript"
 categories: game, java

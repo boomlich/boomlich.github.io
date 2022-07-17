@@ -3,7 +3,11 @@ layout: post
 title:  "Pathfinder"
 short_description: "algorithm visualization"
 featured: true
-thumbnail_image: "/assets/images/project_thumbnail_pathfinder_01.png"
+
+thumbnail_img_webp: "/assets/images/project_thumbnail_pathfinder_01.webp"
+thumbnail_img_png: "/assets/images/project_thumbnail_pathfinder_01.png"
+
+
 thumbnail_video_mp4: "/assets/videoes/projects_thumbnail_video_pathfinder_01.mp4"
 thumbnail_video_webm: "/assets/videoes/projects_thumbnail_video_pathfinder_01.webm"
 

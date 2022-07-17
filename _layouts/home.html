@@ -20,8 +20,14 @@ layout: default
       {%- for post in site.posts -%}
         {%- if post.featured -%}
           {% include product-card.html 
-            url=post.url title=post.title thumbnail_img=post.thumbnail_image thumbnail_video_mp4=post.thumbnail_video_mp4
-            thumbnail_video_webm=post.thumbnail_video_webm short_description=post.short_description tags=post.tags %}
+            url=post.url
+            title=post.title 
+            thumbnail_img_webp=post.thumbnail_img_webp
+            thumbnail_img_png=post.thumbnail_img_png 
+            thumbnail_video_mp4=post.thumbnail_video_mp4
+            thumbnail_video_webm=post.thumbnail_video_webm
+            short_description=post.short_description
+            tags=post.tags %}
         {%- endif -%}
       {%- endfor -%}
     </div>

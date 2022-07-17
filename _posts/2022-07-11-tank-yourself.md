@@ -3,8 +3,10 @@ layout: post
 title:  "Tank Yourself"
 short_description: "action game"
 featured: true
-# banner_image: "/assets/images/banner_tank-yourself.png"
-thumbnail_image: "/assets/images/banner_tank-yourself.png"
+
+thumbnail_img_webp: "/assets/images/project_thumbnail_tank-yourself_01.webp"
+thumbnail_img_png: "/assets/images/project_thumbnail_tank-yourself_01.png"
+
 thumbnail_video_mp4: "/assets/videoes/projects_thumbnail_video_tank-yourself_01.mp4"
 thumbnail_video_webm: "/assets/videoes/projects_thumbnail_video_tank-yourself_01.webm"
 tags: "game javascript"
