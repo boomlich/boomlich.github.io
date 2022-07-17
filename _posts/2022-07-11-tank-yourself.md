@@ -13,21 +13,20 @@ categories: game, javascript
 collection: projects
 
 tldr: true
-tldr_desc: "Small action game written to learn more about javascript"
+tldr_desc: "A small action game created to learn more about javascript"
 tldr_lang: "Javascript, html, css"
 tldr_tools: "VScode, p5.js, Adobe Illustrator"
 
 ---
 Tank yourself is an action game, where you defeat endless waves of enemies, gain points and reach a new high score.
 
-It was a proof-of-concept, created to learn javascript, and to create a game playable in a browser,
-as opposed requiring downloading and running an executable file on a device.
+The project is a proof-of-concept, created to learn and explore javascript, and to create a game playable in a browser, as opposed to requiring downloading and running an executable file on a device.
 
 {% include centered-youtube.html url='https://www.youtube.com/embed/z5vm-Uw1DkA' %}
 
 
 ## How to play
-The game is published on Itch.io where it can be played for free in an browser. Click the «play on itch.io» bellow:
+The game is published on itch.io where it can be played for free in a browser. Click the «play on itch.io» below:
 
 <iframe frameborder="0" src="https://itch.io/embed/1600428?dark=true" width="100%" height="167"><a href="https://boomlich.itch.io/tank-yourself">Tank Yourself by boomlich</a></iframe>
 
@@ -36,16 +35,16 @@ The game is published on Itch.io where it can be played for free in an browser. 
 #### How to spawn enemies?
 Enemies spawn in two ways.
 - Random: Enemies will randomly spawn. The chance of spawning increases over time.
-- Fire at walls: Bullets that hit the wall will spawn an enemy seed, which will travel along the edge to the opposite side of the map, then spawning an enemy corrosponding with the bullet damage value. Bullets with 1 damage spawn basic enemies, whilst bullets with 2 damage spawn mega enemies.
+- Fire at walls: Bullets that hit the wall will spawn an enemy seed, which will travel along the edge to the opposite side of the map, then spawning an enemy corresponding with the bullet damage value. Bullets with 1 damage spawn basic enemies, whilst bullets with 2 damage spawn mega enemies.
 
 #### How to score points?
 There are two ways of gaining points:
-- Defeating enemies: Defeated enemies grant points equal to the health-value of the enemy. Enemies spawned from an seed grant double points.
-- Gaining combo-points: Gaining points in rapid succession builds a combo-meter. When the combo-meter expires the total gained points during that active combo-meter is mutliplied
-with the combo-multiplier. If you gain 25 points during a x2 combo-meter, you gain 50 points. A combo-meter is cancelled if you recieve any damage before it expires.
+- Defeating enemies: Defeated enemies grant points equal to the health-value of the enemy. Enemies spawned from a seed grant double points.
+- Gaining combo-points: Gaining points in rapid succession builds a combo-meter. When the combo-meter expires, the total gained points during that active combo-meter is multiplied
+with the combo-multiplier. Earning 25 points during a x2 combo-meter, you gain 50 points. Recieving any damage cancels the active combo-meter.
 
 #### Game over
-You start with 3 health. If an enemy reaches you, you'll take damage equal to the enemy health. When you reach 0 health, it's game over. 
+You start with 3 health. If an enemy reaches you, you'll take damage equal to the enemy health. When reaching 0 health, it's game over. 
 
 Picking up 15 green coins heals you for 1 health.
 
@@ -60,4 +59,4 @@ You have two bullets:
 - Basic: 1 damage, 2 seconds cooldown
 - Mega: 2 damage, 4 seconds cooldown
 
-You ammo-counter is displayed in the bottom-middle of the screen.
+Your ammo counter is displayed in the bottom middle of the screen.

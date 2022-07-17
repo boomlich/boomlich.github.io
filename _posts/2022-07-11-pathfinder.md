@@ -18,7 +18,7 @@ tldr_lang: "Java"
 tldr_tools: "IntelliJ"
 ---
 
-This program was created to learn more about algorithms and how to implement them, specificly maze-generation and pathfinding algorithms.
+I created this program to learn more about algorithms and how to implement them, specifically maze-generation and pathfinding algorithms.
 
 {% include download-file.html 
     title='PathFinder' version='1.0.0 / 16.07.22'
@@ -28,13 +28,13 @@ This program was created to learn more about algorithms and how to implement the
 
 
 ## Maze-generation algorithms
-In the program there are four different available algorithms to choose when generating mazes.
+For generating mazes, four unique algorithms are available.
 
-All the algorithms produce perfect mazes, which means there is no loops and all mazes are solvable. Most of these algorithms are based of [spanning tree-algorithms](https://en.wikipedia.org/wiki/Minimum_spanning_tree){:target="_blank"} used in graph theory.
+All the algorithms produce perfect mazes, which means there are no loops and all mazes are solvable. Most of these algorithms are based on [spanning tree-algorithms](https://en.wikipedia.org/wiki/Minimum_spanning_tree){:target="_blank"} used in graph theory.
 
 ### Randomized depth first search
 
-Randomized depth-first search used backtracking. This algorithm can be implemented both recursively and iteratively. I've chosen an iterative approach for my implementation.
+Random DFS algorithm can be implemented both recursively and iteratively. I've chosen an iterative approach for my implementation.
 
 <center>
     <video class="in-article-video" autoplay muted playsinline loop>

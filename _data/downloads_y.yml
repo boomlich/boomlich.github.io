@@ -1,0 +1,4 @@
+software:
+  - name: tetris
+    win_install: https://dl.dropboxusercontent.com/s/nt7t4kzxisrm12x/TetrisSetup.exe?dl=0
+    win_zip: https://dl.dropboxusercontent.com/s/otct0uovlw1c9dz/tetris_win.zip?dl=0

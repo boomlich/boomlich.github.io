@@ -10,30 +10,27 @@ collection: projects
 
 tldr: true
 tldr_desc: "Personal webpage for displaying my projects"
-tldr_lang: "Javascript, liquid, html, scss"
+tldr_lang: "Javascript, Liquid, html, scss"
 tldr_tools: "VScode, jekyll"
 
 ---
-The current website you are on. It was created display and present my projects. 
+The current website you are on. It was created to display and present my projects. 
 
-This website was built using `jekyll` static site generator and hosted on github pages. The benefit of choosing jekyll is that 
-it is closely integreted with github pages, which offers free website hosting. Another benefit with jekyll is that it allows
-me to create static website that are fast to load and easy to maintain and update. 
+This website was built using `Jekyll` static site generator and hosted on GitHub pages. The benefit of choosing Jekyll is that it is closely integrated with Github pages, which offer free website hosting. Additionally, Jekyll allows me to create a static website that is fast to load and easy to maintain and update. 
 
-To add a new project, I only have to make a new markdown file and `jekyll` generates a new static HTML document for that post with all the layout and style as specified by
-the theme.
+To add a new project, I only have to make a new markdown file, and `Jekyll` generates a new static HTML document for that post with all the layout and style as specified by the theme.
 
-### Running the project display with javascript
+### Displaying my projects with javascript
 
-For displaying the project cards, custom javascript logic was written. This includes the tag-filtering, allowing the user
-to only display the projects with the desired tag. Also, the video playback when the mouse hovers over a tile was custom javascript.
+For displaying the project cards and make them interactive, I used javascript. This includes the tag-filtering, allowing the user
+to display only the projects with the desired tag. Also, the video playback when the mouse hovers over a tile was custom javascript.
 
 ### Building an resume with json
 
-Another perk of using `jekyll`, is that is handels `json` files with ease. Through its `liquid templating language` I was able
-to easely turn data into a complete resume. 
+Another perk of using `Jekyll` is that it works well with `JSON` files. Through its `liquid templating language` I was able
+to turn data into a complete resume. 
 
-Here is an example of one of the json for one an entry in my resume:
+Here is an example of the JSON data for one an entry in my resume:
 ``` json
 {
     "start":"Aug 2022",
@@ -46,7 +43,7 @@ Here is an example of one of the json for one an entry in my resume:
     "industry":"Education"
 }
 ```
-This results in the following resume-panel:
+Resulting in the following resume panel:
 
 {% assign entry=site.data.resume.work[0] %}
 {% include resume-panel.html 
