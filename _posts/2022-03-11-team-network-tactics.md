@@ -12,7 +12,7 @@ collection: projects
 
 tldr: true
 tldr_grade: "100/100"
-tldr_desc: "Signleplayer rock, paper, scissor game converted to a networking application"
+tldr_desc: "Singleplayer rock, paper, scissor game converted to a networking application"
 tldr_lang: "Python"
 tldr_tools: "VScode, Sockets"
 

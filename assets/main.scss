@@ -183,15 +183,17 @@ h1 {
     color: $color-regular;
 }
 
-.project-banner-panel {
-    margin-bottom: 20px;
-    background-color: rgba($color: #000000, $alpha: 0.35);
-}
+// .project-banner-panel {
+    
+//     background-color: rgba($color: #000000, $alpha: 0.35);
+//     margin-bottom: 20px;
+// }
 
 .project-banner-img {
     object-fit: contain;
     max-height: 300px;
     width: 100%;
+    margin-bottom: 20px;
 }
     
 

@@ -22,9 +22,12 @@ I created this program to learn more about algorithms and how to implement them,
 
 {% include download-file.html 
     title='PathFinder' version='1.0.0 / 16.07.22'
-    win_installer='https://matix.li/c3ed9290f959' win_installer_size='86 MB'
-    win_zip='https://matix.li/b267232e1c1d' win_zip_size='114 MB'
+    win_installer='https://dl.dropboxusercontent.com/s/04z3f6ag45nqj3z/PathFinderSetup.exe?dl=0' win_installer_size='86 MB'
+    win_zip='https://dl.dropboxusercontent.com/s/r7ckkx5qtgnvil7/PathFinder.zip?dl=0' win_zip_size='114 MB'
 %}
+
+### Demo
+{% include centered-youtube.html url='https://www.youtube.com/embed/Zphj52OKH6s' %}
 
 
 ## Maze-generation algorithms

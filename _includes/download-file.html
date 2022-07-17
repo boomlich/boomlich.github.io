@@ -20,10 +20,10 @@
 
     <div class = "os-selecter">
         {%- if has_windows -%}
-            <a class="file-download-os-selecter" id="os-windows" onclick="set_os_button_active(this)">Windows</a>
+            <a class="file-download-os-selecter" id="os-Windows" onclick="set_os_button_active(this)">Windows</a>
         {%- endif -%}
         {%- if has_mac -%}
-        <a class="file-download-os-selecter" id="os-mac" onclick="set_os_button_active(this)">macOS</a>
+        <a class="file-download-os-selecter" id="os-MacOS" onclick="set_os_button_active(this)">macOS</a>
         {%- endif -%}
     </div>
     
@@ -32,14 +32,14 @@
             {% include download-os-panel.html 
                 installer=include.win_installer installer_size=include.win_installer_size 
                 zip=include.win_zip zip_size=include.win_zip_size
-                title=include_title os='windows' %}
+                title=include_title os='Windows' %}
         {%- endif -%}
 
         {%- if has_mac -%}
             {% include download-os-panel.html 
                 installer=include.mac_installer installer_size=include.mac_installer_size 
                 zip=include.mac_zip zip_size=include.mac_zip_size
-                title=include_title os='mac'%}
+                title=include_title os='MacOS'%}
         {%- endif -%}
     </div>
 </div>
