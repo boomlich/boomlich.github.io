@@ -4,8 +4,8 @@ title:  "Team Network Tactics"
 short_description: "socket programming"
 featured: false
 
-thumbnail_img_webp: "/assets/images/project_thumbnail_orcattc_01.webp"
-thumbnail_img_png: "/assets/images/project_thumbnail_orcattc_01.png"
+thumbnail_img_webp: "/assets/images/project_thumbnail_team-network-tactics_01.webp"
+thumbnail_img_png: "/assets/images/project_thumbnail_team-network-tactics_01.png"
 
 github: "https://github.com/Captain-Yarkin/Mandatory-assigment-INF142"
 tags: "game python school networking"
