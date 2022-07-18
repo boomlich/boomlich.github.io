@@ -31,8 +31,10 @@ I created this program to learn more about algorithms and how to implement them,
 %}
 
 ### Demo
-{% include centered-youtube.html url='https://www.youtube.com/embed/Zphj52OKH6s' %}
-
+{% include centered-youtube.html 
+    id='Zphj52OKH6s'
+    title='PathFinder - Demo'
+%}
 
 ## Maze-generation algorithms
 For generating mazes, four unique algorithms are available.

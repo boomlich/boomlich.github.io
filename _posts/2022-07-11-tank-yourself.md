@@ -24,7 +24,10 @@ Tank yourself is an action game, where you defeat endless waves of enemies, gain
 
 The project is a proof-of-concept, created to learn and explore javascript, and to create a game playable in a browser, as opposed to requiring downloading and running an executable file on a device.
 
-{% include centered-youtube.html url='https://www.youtube.com/embed/z5vm-Uw1DkA' %}
+{% include centered-youtube.html 
+    id='z5vm-Uw1DkA'
+    title='Tank Yourself - Full gameplay'
+%}
 
 
 ## How to play
