@@ -7,7 +7,8 @@
             "description":"Leading group sessions and teaching students | Assist students with lecture and homework questions | Grading mandatory assignments",
             "vacancy":"Part-time",
             "company":"University of Bergen",
-            "company_logo":"/assets/images/resume/resume_logo_uib.svg",
+            "company_logo_webp":"/assets/images/resume/resume_logo_uib.webp",
+            "company_logo_png":"/assets/images/resume/resume_logo_uib.png",
             "industry":"Education"
         },
 
@@ -18,7 +19,8 @@
             "description":"Consulting customers | Designing and developing motions graphics, and visual effects | Editing photos and other graphics-related tasks",
             "vacancy":"Part-time",
             "company":"Falkeblikk AS",
-            "company_logo":"/assets/images/resume/resume_logo_falkeblikk.png",
+            "company_logo_webp":"/assets/images/resume/resume_logo_falkeblikk.webp",
+            "company_logo_png":"/assets/images/resume/resume_logo_falkeblikk.png",
             "industry":"Media-production"
         },
 
@@ -29,7 +31,8 @@
             "description":"Consulting customers | Designing and developing motions graphics, and visual effects | Editing photos and other graphics-related tasks",
             "vacancy":"Full-time",
             "company":"Falkeblikk AS",
-            "company_logo":"/assets/images/resume/resume_logo_falkeblikk.png",
+            "company_logo_webp":"/assets/images/resume/resume_logo_falkeblikk.webp",
+            "company_logo_png":"/assets/images/resume/resume_logo_falkeblikk.png",
             "industry":"Media-production"
         },
 
@@ -40,7 +43,8 @@
             "description":"Operating cameras at stadion for OBOS and Tippeligaen football matches | Rigging cameras and production equipment",
             "vacancy":"Freelance",
             "company":"OB-Team AS",
-            "company_logo":"/assets/images/resume/resume_logo_ob-team.png",
+            "company_logo_webp":"/assets/images/resume/resume_logo_ob-team.webp",
+            "company_logo_png":"/assets/images/resume/resume_logo_ob-team.png",
             "industry":"TV-production"
         }
 
@@ -53,7 +57,8 @@
             "title":"Bachelor in Informatics: Computer Techonology",
             "vacancy":"3 years",
             "company":"University of Bergen",
-            "company_logo":"/assets/images/resume/resume_logo_uib.svg"
+            "company_logo_webp":"/assets/images/resume/resume_logo_uib.webp",
+            "company_logo_png":"/assets/images/resume/resume_logo_uib.png"
         },
 
         {
@@ -63,7 +68,8 @@
             "description":"Specialization in business development and digitization",
             "vacancy":"3 years",
             "company":"BI Norwegian Business School",
-            "company_logo":"/assets/images/resume/resume_logo_bi.png"
+            "company_logo_webp":"/assets/images/resume/resume_logo_bi.webp",
+            "company_logo_png":"/assets/images/resume/resume_logo_bi.png"
         }
     ]
 }

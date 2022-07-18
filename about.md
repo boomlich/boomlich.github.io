@@ -4,12 +4,6 @@ title: About
 permalink: /about/
 ---
 
-<picture>
-    <source srcset="/assets/images/project_thumbnail_tank-yourself_01.webp" type="image/webp">
-    <img src="/assets/images/project_thumbnail_tetris.png_01" type="image/png">
-</picture>
-
-
 Hi! My name is Thomas. I live in Bergen, currently attending the second year of my bachelor's degree in computer technology at the University of Bergen.
 
 ## Current goal

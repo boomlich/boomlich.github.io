@@ -4,8 +4,16 @@
     <div class = "resume-panel">
         {%- for entry in site.data.resume.work -%}
             {% include resume-panel.html 
-                start=entry.start end=entry.end title=entry.title description=entry.description vacancy=entry.vacancy
-                company=entry.company company_logo=entry.company_logo industry=entry.industry %}
+                start=entry.start
+                end=entry.end
+                title=entry.title
+                description=entry.description
+                vacancy=entry.vacancy
+                company=entry.company
+                company_logo_svg=entry.company_logo_svg
+                company_logo_webp=entry.company_logo_webp
+                company_logo_png=entry.company_logo_png
+                industry=entry.industry %}
         {%- endfor -%}
     </div>
 {%- endif -%}
@@ -15,8 +23,16 @@
     <div class = "resume-panel">
         {%- for entry in site.data.resume.education -%}
             {% include resume-panel.html 
-                start=entry.start end=entry.end title=entry.title description=entry.description vacancy=entry.vacancy
-                company=entry.company company_logo=entry.company_logo %}
+                start=entry.start
+                end=entry.end
+                title=entry.title
+                description=entry.description
+                vacancy=entry.vacancy
+                company=entry.company
+                company_logo_svg=entry.company_logo_svg
+                company_logo_webp=entry.company_logo_webp
+                company_logo_png=entry.company_logo_png 
+            %}
         {%- endfor -%}
     </div>
 {%- endif -%}
