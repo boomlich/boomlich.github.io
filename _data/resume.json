@@ -70,6 +70,15 @@
             "company":"BI Norwegian Business School",
             "company_logo_webp":"/assets/images/resume/resume_logo_bi.webp",
             "company_logo_png":"/assets/images/resume/resume_logo_bi.png"
+        },
+        {
+            "start":"Jul 2015",
+            "end":"Aug 2017",
+            "title":"Media Graphics Artist Apprenticeship",
+            "vacancy":"2 years",
+            "company":"Falkeblikk AS",
+            "company_logo_webp":"/assets/images/resume/resume_logo_falkeblikk.webp",
+            "company_logo_png":"/assets/images/resume/resume_logo_falkeblikk.png"
         }
     ]
 }

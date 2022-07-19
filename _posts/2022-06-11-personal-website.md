@@ -46,20 +46,30 @@ Another perk of using Jekyll is that it works well with `JSON` files. Through [L
 Here is an example of the JSON data for one entry in my resume:
 ``` json
 {
-    "start":"Aug 2022",
-    "end":"Present",
-    "title":"Teaching assistant",
-    "description":"Leading group sessions and teach students",
+    "start":"Aug 2018",
+    "end":"Jun 2021",
+    "title":"Media graphics artist",
+    "description":"Consulting customers | Designing and developing motions graphics, and visual effects | Editing photos and other graphics-related tasks",
     "vacancy":"Part-time",
-    "company":"University of Bergen",
-    "company_logo":"/assets/images/resume/resume_logo_uib.svg",
-    "industry":"Education"
+    "company":"Falkeblikk AS",
+    "company_logo_webp":"/assets/images/resume/resume_logo_falkeblikk.webp",
+    "company_logo_png":"/assets/images/resume/resume_logo_falkeblikk.png",
+    "industry":"Media-production"
 }
 ```
 Resulting in the following resume panel:
 
-{% assign entry=site.data.resume.work[0] %}
-{% include resume-panel.html 
-    start=entry.start end=entry.end title=entry.title description=entry.description vacancy=entry.vacancy
-    company=entry.company company_logo=entry.company_logo industry=entry.industry %}
-
+{% assign entry=site.data.resume.work[1] %}
+<div class = "resume-panel">
+    {% include resume-panel.html 
+        start=entry.start
+        end=entry.end
+        title=entry.title
+        description=entry.description
+        vacancy=entry.vacancy
+        company=entry.company
+        company_logo_svg=entry.company_logo_svg
+        company_logo_webp=entry.company_logo_webp
+        company_logo_png=entry.company_logo_png 
+    %}
+</div>
