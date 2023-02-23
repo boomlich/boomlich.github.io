@@ -1,5 +1,29 @@
 {
+
+    
     "work": [
+        {
+            "start":"Jan 2023",
+            "end":"May 2023",
+            "title":"Scientific Assistant",
+            "description":"Help students with assignements | Teach and organize group sessions | Grade mandatory assignements",
+            "vacancy":"Part-time",
+            "company":"University of Bergen",
+            "company_logo_webp":"/assets/images/resume/resume_logo_uib.webp",
+            "company_logo_png":"/assets/images/resume/resume_logo_uib.webp",
+            "industry":"Academia"
+        },
+        {
+            "start":"Aug 2022",
+            "end":"Nov 2022",
+            "title":"Research Assistant",
+            "description":"Help students with assignements | Teach and organize group sessions | Grade mandatory assignements",
+            "vacancy":"Part-time",
+            "company":"University of Bergen",
+            "company_logo_webp":"/assets/images/resume/resume_logo_uib.webp",
+            "company_logo_png":"/assets/images/resume/resume_logo_uib.webp",
+            "industry":"Academia"
+        },
         {
             "start":"Aug 2018",
             "end":"Jun 2021",
