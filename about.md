@@ -17,3 +17,5 @@ My main areas of interest inside computer science is
 - Languages: C/C++, C#, Java, Haskell, Javascript, Python, HTML, CSS, SCSS
 - Frameworks/Libraries: Jekyll, Maven, SFML
 
+
+

@@ -18,7 +18,18 @@ tldr_lang: "Java"
 tldr_tools: "VSCode"
 ---
 
-This is the first projects i ever did in Java. I decided to learn java through a fun and simple project. A basic calculator app!
+A basic calculator app! This was my first ever Java project. Probably not the most original "first-time" project, but it helped me transition from only ever programming in python.
+
+It supports all the basic arithmetic operations and exponents, square roots, and parenthesized expressions.
+
+In addition, it has a number of quality-of-life features, including:
+
+* Remembering the last calculated answer
+* Backspace erasing
+* Automatically closing opened parenthesized expressions
+* Converting incomplete comma expression (`.5` is converted automatically to `0.5`)
+* Change of rounding accuracy from 0-10 digits.
+
 
 {% include download-file.html
     title='PathFinder' version='1.0.0 / 25.03.22'
