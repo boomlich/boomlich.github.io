@@ -17,7 +17,7 @@ tldr_desc: "Character autonomously moving and steering along a given path"
 tldr_lang: "Java"
 tldr_tools: "IntelliJ"
 ---
-This was one of my early projects i created in Java. I was facinated by how racing games implements autonomous characters that the player can compete agains. I stumbled upon a [old paper](http://www.red3d.com/cwr/steer/) from 1997, by Craig Renolds, that described how such a system works. And so the project was born.
+This was one of the early projects I created in Java. I was fascinated by how racing games implement autonomous characters that the player can compete for agains. I stumbled upon a [old paper](http://www.red3d.com/cwr/steer/) from 1997, by Craig Renolds, that described how such a system works. And so the project was born.
 
 {% include download-file.html
     title='Autonomous Steering' version='1.0.0 / 15.02.22'
