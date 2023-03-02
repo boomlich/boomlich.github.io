@@ -2,6 +2,10 @@
     {% assign has_windows = true %}
 {% endif %}
 
+{% if include.win_jar %}
+    {% assign has_windows = true %}
+{% endif %}
+
 {% if include.win_zip %}
     {% assign has_windows = true %}
 {% endif %}
@@ -13,6 +17,14 @@
 {% if include.mac_zip %}
     {% assign has_mac = true %}
 {% endif %}
+
+{% if include.mac_jar %}
+    {% assign has_mac = true %}
+{% endif %}
+
+
+
+
 
 <div class="file-download-panel">
     <h3>Download</h3>
@@ -32,6 +44,7 @@
             {% include download-os-panel.html 
                 installer=include.win_installer installer_size=include.win_installer_size 
                 zip=include.win_zip zip_size=include.win_zip_size
+                jar=include.win_jar jar_size=include.win_jar_size
                 title=include_title os='Windows' %}
         {%- endif -%}
 
@@ -39,6 +52,7 @@
             {% include download-os-panel.html 
                 installer=include.mac_installer installer_size=include.mac_installer_size 
                 zip=include.mac_zip zip_size=include.mac_zip_size
+                jar=include.win_jar jar_size=include.win_jar_size
                 title=include_title os='MacOS'%}
         {%- endif -%}
     </div>

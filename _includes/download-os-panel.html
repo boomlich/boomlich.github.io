@@ -18,4 +18,14 @@
             </button>
         </a>
     {%- endif -%}
+
+    {%- if include.jar -%}
+        <a class="file-download-link" href="{{ include.jar }}" download="{{ include.title }}">
+            <button class="button download-button" id="file-download">
+                <div id ="button-text">
+                    <b>JAR</b><h5>{{ include.jar_size }}</h5>
+                </div>
+            </button>
+        </a>
+    {%- endif -%}
 </div>
