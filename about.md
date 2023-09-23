@@ -12,16 +12,16 @@ permalink: /about/
 </div>
 
 ## Area of interest
+
 My main areas of interest inside computer science is
+
 - Algoritms
 - Vizualisation
 - Game development
 - Backend development
 
 ### Things i use or have experience with:
+
 - Tools: Intellij, Visual Studio, VScode, Adobe CC, Unreal Engine
 - Languages: C/C++, C#, Java, Haskell, Javascript, Python, HTML, CSS, SCSS
 - Frameworks/Libraries: Jekyll, Maven, SFML
-
-
-
