@@ -3,6 +3,17 @@
     
     "work": [
         {
+            "start":"Aug 2023",
+            "end":"Nov 2023",
+            "title":"Scientific Assistant",
+            "description":"INF102 - Algorithms, data structures and programming | Teach and organize group sessions | Grading of student assignements",
+            "vacancy":"Part-time",
+            "company":"University of Bergen",
+            "company_logo_webp":"/assets/images/resume/resume_logo_uib.webp",
+            "company_logo_png":"/assets/images/resume/resume_logo_uib.webp",
+            "industry":"Academia"
+        },
+        {
             "start":"Jan 2023",
             "end":"May 2023",
             "title":"Scientific Assistant",
